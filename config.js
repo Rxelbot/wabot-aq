@@ -27,7 +27,7 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'iRexus\'V2'
+  var sticker_name = 'Someone'
   var sticker_author = 'iRexus'
 } else {
   var sticker_name = stickerpack.spackname
